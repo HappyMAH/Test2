@@ -1,0 +1,31 @@
+﻿<Page x:Class="Capcha.Pages.AddClientRieltorPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Capcha.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddClientRieltorPage">
+
+    <StackPanel >
+        <StackPanel HorizontalAlignment="Center">
+            <Label>Имя</Label>
+            <TextBox TextChanged="FirstNameTB_TextChanged" x:Name="FirstNameTB" Width="150" Height="25"></TextBox>
+            <Label>Фамилия</Label>
+            <TextBox TextChanged="MiddleNameTB_TextChanged" x:Name="MiddleNameTB" Width="150" Height="25"></TextBox>
+            <Label>Отчество</Label>
+            <TextBox TextChanged="LastNameTB_TextChanged" x:Name="LastNameTB" Width="150" Height="25"></TextBox>
+            <Label>Телефон</Label>
+            <TextBox TextChanged="PhoneTB_TextChanged" x:Name="PhoneTB"  Width="150" Height="25"></TextBox>
+            <Label>Почта</Label>
+            <TextBox TextChanged="emailTB_TextChanged" x:Name="emailTB" Width="150" Height="25"></TextBox>
+            <Button x:Name="AddBtn" Click="AddBtn_Click" Content="Добавить клиента"></Button>
+        </StackPanel>
+        
+        
+        
+        
+
+    </StackPanel>
+</Page>
